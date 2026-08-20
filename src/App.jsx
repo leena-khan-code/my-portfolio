@@ -29,6 +29,12 @@ function App() {
     document.body.className = theme
   }, [theme])
 
+  useEffect(() => {
+    if (!window.location.hash || window.location.hash === "#") {
+      window.location.hash = "#/"
+    }
+  }, [])
+
   return (
     <Router>
       <div className={`app ${theme}`}>
