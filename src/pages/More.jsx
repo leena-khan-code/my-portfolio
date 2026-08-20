@@ -16,24 +16,21 @@ const More = ({ theme }) => {
 
       <div className="more-cards">
         <div className="more-card">
-          <h3 className="more-card-title">Medium</h3>
+          <h3 className="more-card-title">Certifications & Training</h3>
           <p className="more-card-description">
-            I write blogs on web development, trending tech stacks or javascript guide or tips in Medium
+            • <strong>Odoo Functional & Technical Development</strong> — Practical / Self-Directed<br />
+            • <strong>Python Programming</strong> — University Coursework & Projects<br />
+            • <strong>Web Development Fundamentals</strong> — HTML, CSS & JavaScript<br />
+            • <strong>ERP Business Workflows</strong> — Sales, Purchase, Accounting & Inventory<br />
+            • <strong>Database Design & SQL</strong> — University Coursework
           </p>
-          <a href="#" className="more-card-link">
-            Visit Blog <FaExternalLinkAlt className="link-icon" />
-          </a>
         </div>
 
         <div className="more-card">
-          <h3 className="more-card-title">Buy Me a coffee</h3>
+          <h3 className="more-card-title">Core Competencies & Skills</h3>
           <p className="more-card-description">
-            Your support goes a long way in helping me maintain the quality of content, explore new topics, and dedicate
-            more time to creating valuable projects.
+            Problem Solving • Business Requirement Analysis • Quick Learner • Team Collaboration • Analytical Thinking • Time Management • Adaptability
           </p>
-          <a href="#" className="more-card-link">
-            Support Me <FaExternalLinkAlt className="link-icon" />
-          </a>
         </div>
       </div>
     </div>

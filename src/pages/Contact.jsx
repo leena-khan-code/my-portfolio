@@ -70,8 +70,13 @@ const Contact = ({ theme }) => {
       <div className="contact-content">
         <div className="contact-form-container">
           <div className="form-header">
-            <h2>Send a message</h2>
-            <p>I'll get back to you as soon as possible.</p>
+            <h2>Get In Touch with Leena Khan</h2>
+            <p style={{ marginBottom: "15px" }}>Odoo Functional & Technical Developer | Python Developer</p>
+            <div style={{ display: "flex", flexDirection: "column", gap: "8px", fontSize: "0.95rem", textAlign: "left", padding: "12px", background: "var(--input-bg)", borderRadius: "10px", border: "1px solid var(--border-color)", marginBottom: "20px" }}>
+              <div>📧 <strong>Email:</strong> <a href="mailto:leenakhan670@gmail.com" style={{ color: "#2f7df4", textDecoration: "none" }}>leenakhan670@gmail.com</a></div>
+              <div>🔗 <strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/leena-khan" target="_blank" rel="noopener noreferrer" style={{ color: "#2f7df4", textDecoration: "none" }}>linkedin.com/in/leena-khan</a></div>
+              <div>📍 <strong>Location:</strong> Swabi, Khyber Pakhtunkhwa, Pakistan</div>
+            </div>
           </div>
 
           {submitSuccess && (

@@ -11,22 +11,16 @@ const About = ({ theme }) => {
           <span>About me</span>
         </div>
         <h1 className="section-title">
-          Full-Stack Developer | Odoo ERP Expert
+          Odoo Functional & Technical Developer | Python Developer
           <br />
-          Based in KP IT Board Strings Technologies.
+          Based in Swabi, Khyber Pakhtunkhwa, Pakistan.
         </h1>
         <div className="line"></div>
       </div>
-      +
+
       <p className="about-description">
-        I’m a Full-Stack Developer and Odoo ERP Specialist dedicated to building efficient, scalable solutions. My
-        expertise spans the MERN Stack (MongoDB, Express, React, Node), Odoo customization, and Bot Development. I specialize in creating functional web
-        applications, automating business processes, and developing intelligent bots (Discord/Python/JS) to streamline workflows.
-        With a strong background in Web Scraping and Business Automation, I
-        focus on writing clean, maintainable code that solves real-world
-        problems. From designing responsive modern interfaces to creating robust
-        APIs and managing databases, I enjoy building products end-to-end and
-        collaborating to bring impactful projects to life.
+        I’m a motivated 6th-semester Computer Science student at University of Swabi with hands-on experience in
+        <strong> Odoo 19 ERP</strong> functional and technical development, Python programming, and web technologies. Proficient in configuring core Odoo modules including Sales, Purchase, Accounting, Inventory, and Employee. Built a complete <strong>Car Workshop ERP mini-project</strong> on Odoo 19 and developed multiple Python applications covering OOP, file handling, and data structures. Passionate about converting business requirements into practical ERP and software solutions.
       </p>
 
       <div className="info-cards">
@@ -38,7 +32,7 @@ const About = ({ theme }) => {
           <div className="info-line"></div>
           <div className="info-content">
             <span className="info-dot"></span>
-            <span>English, Urdu, Hindi</span>
+            <span>English, Urdu, Pashto</span>
           </div>
         </div>
 
@@ -62,7 +56,7 @@ const About = ({ theme }) => {
           <div className="info-line"></div>
           <div className="info-content">
             <span className="info-dot"></span>
-            <span>Male</span>
+            <span>Female</span>
           </div>
         </div>
       </div>
@@ -70,14 +64,14 @@ const About = ({ theme }) => {
       <div className="hobbies-section">
         <div className="hobbies-header">
           <FaHeart className="hobbies-icon" />
-          <h3>Hobbies</h3>
+          <h3>Core Passions & Hobbies</h3>
         </div>
         <div className="hobbies-line"></div>
         <div className="hobbies-list">
-          <span className="hobby-item">Coding</span>
-          <span className="hobby-item">Playing Games</span>
-          <span className="hobby-item">Watching Actions</span>
-          <span className="hobby-item">Developing Cool Projects</span>
+          <span className="hobby-item">Odoo Customization</span>
+          <span className="hobby-item">Python Coding & OOP</span>
+          <span className="hobby-item">ERP Workflow Design</span>
+          <span className="hobby-item">Problem Solving</span>
         </div>
       </div>
     </div>

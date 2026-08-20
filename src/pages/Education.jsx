@@ -16,21 +16,38 @@ const Education = ({ theme }) => {
 
       <div className="timeline">
         <div className="timeline-item">
-          <div className="timeline-date">Sep 2021-2025</div>
+          <div className="timeline-date">2023 – 2027</div>
           <div className="timeline-line">
             <div className="timeline-dot"></div>
           </div>
           <div className="timeline-content">
             <h2 className="timeline-title">
-              Bachelor of Computer Science,
+              Bachelor of Science in Computer Science
               <br />
-              Islamia College University Peshawer.
+              University of Swabi
             </h2>
-            <p className="timeline-description">Completed my Bachelor degree in Computer Science.</p>
+            <p className="timeline-description">
+              Currently in 6th Semester. Specializing in Software Development, Database Design, Python Programming, and Odoo ERP Systems.
+            </p>
           </div>
         </div>
 
-        {/* You can add more education items here */}
+        <div className="timeline-item">
+          <div className="timeline-date">Completed 2023</div>
+          <div className="timeline-line">
+            <div className="timeline-dot"></div>
+          </div>
+          <div className="timeline-content">
+            <h2 className="timeline-title">
+              Intermediate (FSc / ICS)
+              <br />
+              Peshawar Model Degree College
+            </h2>
+            <p className="timeline-description">
+              Completed Higher Secondary School Certificate with focus on Computer Science and Mathematics.
+            </p>
+          </div>
+        </div>
       </div>
     </div>
   )

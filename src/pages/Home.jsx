@@ -2,7 +2,7 @@ import { Link } from "react-router-dom"
 import { FaTwitter, FaLinkedin, FaEnvelope, FaSkype, FaExternalLinkAlt, FaGithub, FaDownload } from "react-icons/fa"
 import { useEffect, useState } from "react"
 import "./Home.css"
-import profileImage from "../assets/logo.png"
+import profileImage from "../assets/placeholder.jpeg"
 
 const Home = ({ theme }) => {
   const [typedFirstName, setTypedFirstName] = useState(" ")
@@ -16,11 +16,11 @@ const Home = ({ theme }) => {
 
     const typeName = () => {
       typingInterval = setInterval(() => {
-        if (isTypingFirstName && currentIndex <= "Muhammad".length) {
-          setTypedFirstName("Muhammad".substring(0, currentIndex) || " ")
+        if (isTypingFirstName && currentIndex <= "Leena".length) {
+          setTypedFirstName("Leena".substring(0, currentIndex) || " ")
           currentIndex++
         }
-        else if (isTypingFirstName && currentIndex > "Muhammad".length) {
+        else if (isTypingFirstName && currentIndex > "Leena".length) {
           clearInterval(typingInterval)
           setIsTypingFirstName(false)
           setIsTypingLastName(true)
@@ -34,11 +34,11 @@ const Home = ({ theme }) => {
 
     const typeLastName = () => {
       typingInterval = setInterval(() => {
-        if (isTypingLastName && currentIndex <= "Adil.".length) {
-          setTypedLastName("Adil.".substring(0, currentIndex) || " ")
+        if (isTypingLastName && currentIndex <= "Khan.".length) {
+          setTypedLastName("Khan.".substring(0, currentIndex) || " ")
           currentIndex++
         }
-        else if (isTypingLastName && currentIndex > "Adil.".length) {
+        else if (isTypingLastName && currentIndex > "Khan.".length) {
           clearInterval(typingInterval)
           setIsTypingLastName(false)
           setTimeout(() => {
@@ -72,32 +72,30 @@ const Home = ({ theme }) => {
           </div>
           <div className="line"></div>
           <div className="description">
-            Full-Stack Developer | Odoo ERP Expert | MERN Stack | Bot Development | Web Scraping & <span className="highlight">Business Automation</span>
+            Odoo Functional & Technical Developer | Python Developer | CS Student at University of Swabi | Odoo 19 & <span className="highlight">Business Automation</span>
           </div>
 
           <div className="social-links">
-            <SocialIcon icon={<FaTwitter />} href="#" />
-            <SocialIcon icon={<FaLinkedin />} href="https://www.linkedin.com/in/muhammad-adil222/" />
-            <SocialIcon icon={<FaEnvelope />} href="mailto:muhammadadilhangu@gmail.com" />
-            <SocialIcon icon={<FaSkype />} href="#" />
-            <SocialIcon icon={<FaExternalLinkAlt />} href="#" />
+            <SocialIcon icon={<FaLinkedin />} href="https://www.linkedin.com/in/leena-khan" />
+            <SocialIcon icon={<FaEnvelope />} href="mailto:leenakhan670@gmail.com" />
+            <SocialIcon icon={<FaExternalLinkAlt />} href="https://www.linkedin.com/in/leena-khan" />
           </div>
 
           <div className="buttons">
-            <a href="/Muhammad_Adil_Resume1.pdf" target="_blank" rel="noopener noreferrer" className="resume-btn">
+            <a href="/Leena_Khan_Resume.pdf" target="_blank" rel="noopener noreferrer" className="resume-btn">
               <FaDownload className="btn-icon" />
               Download Resume
             </a>
 
-            <Link to="https://github.com/Adil-Web147" target="_blank" className="github-btn">
+            <Link to="https://www.linkedin.com/in/leena-khan" target="_blank" className="github-btn">
               <FaGithub className="btn-icon" />
-              Github
+              LinkedIn Profile
             </Link>
           </div>
         </div>
 
         <div className="image-container">
-          <img src={profileImage || "/placeholder.svg"} alt="Muhammad Adil" className="profile-image" />
+          <img src={profileImage || "/placeholder.svg"} alt="Leena Khan" className="profile-image" />
         </div>
       </div>
     </div>

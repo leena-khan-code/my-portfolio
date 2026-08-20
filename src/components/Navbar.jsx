@@ -126,7 +126,7 @@ const Navbar = ({ theme, toggleTheme }) => {
           </svg>
         )}
       </button>
-      <span className="mobile-title">Muhammad Adil</span>
+      <span className="mobile-title">Leena Khan</span>
       <button onClick={toggleTheme} className="theme-toggle-mobile">
         {theme === "light" ? (
           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
